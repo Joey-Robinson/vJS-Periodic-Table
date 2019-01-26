@@ -12,6 +12,11 @@ body {
   color: #333333;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
 .center {
   text-align: center;
 }
@@ -62,38 +67,29 @@ body {
   text-align: center;
 }
 
-#element-box .symbol {
+.element-summary .symbol {
   font-size: 5vw;
 }
 
-#element-box .number {
+.element-summary .number {
   font-size: 1vw;
 }
 
-#element-box .element-name {
+.element-summary .element-name {
   font-size: 1.5vw;
 }
 
-#element-box {
-  grid-column: 3/5;
-  grid-row: 2/4;
+.element-summary {
+  grid-column: 3/13;
+  grid-row: 1/4;
   margin: 0;
-  padding: 0.2vw;
+  padding: 0 5px 5px 5px;
   overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 /* Information Table  */
-#information {
-  grid-column: 5/13;
-  grid-row: 2/4;
-  padding: 0.5vw;
-  padding-top: 0;
-  font-size: 1vw;
-}
-
-#information h1 {
-  margin: 0 0 0.5vw 0;
-}
 
 .close-button {
   float: right;
